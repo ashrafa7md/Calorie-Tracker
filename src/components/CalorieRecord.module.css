@@ -1,0 +1,39 @@
+.record-list {
+  border: 1px solid var(--theme-color-light);
+  border-radius: 15px;
+  list-style: none;
+  padding: 0;
+}
+.list-item{
+  border-bottom: 1px solid var(--theme-background-normal);
+}
+.list-item:last-child{
+  border-bottom: none;
+}
+.record{
+  list-style: none;
+  display: flex;
+  color: var(--theme-color-normal);
+  justify-content: space-around;
+  padding: 5px 0;
+  align-items: center;
+  background-color: white;
+  height: auto;
+  width: 70%;
+  margin: auto;
+}
+.record-calories {
+  color: var(--theme-color-dark);
+  font-weight: 400;
+}
+.placeholder{
+  height: 100px;
+  width: 100%;
+  border: 1px solid var(--theme-color-normal);
+  border-radius: 15px;
+  text-align: center;
+  line-height: 100px;
+  margin: 20px 0;
+  font-size: 20px;
+  color: var(--theme-color-normal);
+}

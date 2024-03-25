@@ -1,0 +1,12 @@
+#root {
+  width: 100%;
+  padding: 2rem;
+}
+li{
+  display: flex;
+  gap: 0.5rem;
+}
+h1{
+  display: flex;
+ justify-content: center;
+}
